@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="delete-sign.png" />
+    <None Remove="icons8-menu-squared-64.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="delete-sign.png" />
+    <Resource Include="icons8-menu-squared-64.png" />
+  </ItemGroup>
+
+</Project>
